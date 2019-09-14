@@ -1,3 +1,23 @@
+html{
+    background-color: #f1f1f1;
+    color: #2f2f2f;
+}
+@media (max-width:780px){
+    html{
+        color: #f1f1f1;
+        background-color: #2f2f2f;
+    }
+    .content, .image-placeholder, .description{
+        display: block;
+    }
+    .contact-info, .image-placeholder, .description{
+        float: left;
+    }
+    body{
+        width: 100%;
+        margin-left:0;
+    }
+}
 .name{  
     text-align: left;
     font-size: 20px;
@@ -10,8 +30,8 @@ h1, h2, h3, h4, h5, h6{
 h1{
     text-align:center;
     height:50px;
-    font-size: 40px;
-    padding: 5px;
+    font-size: 30px;
+    padding-top: 10px;
     background-color: #4f4f4f;
     margin-top:0;
 }
@@ -40,26 +60,34 @@ body{
     
 }
 .description{
-    padding:5px;
+    padding:5px;    
     border: 3px solid #4284f5;    
     margin-right: 10px;    
 }
 .contact-info{
+    text-align:center;
     white-space: nowrap;
     padding:5px;
-    padding-right:15px;
+    padding-right:5px;
     border: 3px solid #f5cb42;
     float:right;
     font-weight:bold;
     
 }
 .button{
+    text-align: left;
     height: 25px;
     border-radius:5px;
     margin: 2px;
-    padding:2px;
+    padding: 2px;
+    font-size: 17px;
     background-color: #4284f5;
     color: white;   
+    
+}
+ul{ list-style-type: none; }
+.button > * {
+    padding-top:4px;
 }
 .button > a{
     font-family: Arial, Helvetica, sans-serif;
