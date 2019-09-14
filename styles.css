@@ -1,0 +1,68 @@
+.name{  
+    text-align: left;
+    font-size: 20px;
+    width:100%;
+    font-weight:bold;
+}
+h1, h2, h3, h4, h5, h6{
+    color: White;
+}
+h1{
+    text-align:center;
+    height:50px;
+    font-size: 40px;
+    padding: 5px;
+    background-color: #4f4f4f;
+    margin-top:0;
+}
+body{
+    width:80%;
+    margin-left:10%;
+    margin-top:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content, .image-placeholder, .description{
+    display: flex;
+}
+.image-placeholder{
+    display: block;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:90px 0;
+      
+}
+.image-size{
+    border: 3px solid #42f5c2;
+    min-width:200px;
+    height:200px;
+    background-color:#ddd;
+    margin-right: 10px;
+    
+}
+.description{
+    padding:5px;
+    border: 3px solid #4284f5;    
+    margin-right: 10px;    
+}
+.contact-info{
+    white-space: nowrap;
+    padding:5px;
+    padding-right:15px;
+    border: 3px solid #f5cb42;
+    float:right;
+    font-weight:bold;
+    
+}
+.button{
+    height: 25px;
+    border-radius:5px;
+    margin: 2px;
+    padding:2px;
+    background-color: #4284f5;
+    color: white;   
+}
+.button > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white !important;
+    text-decoration: none;
+}
